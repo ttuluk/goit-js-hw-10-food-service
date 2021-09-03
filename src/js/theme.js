@@ -12,7 +12,6 @@ const STORAGE_KEY = 'check';
 const bodyEl = document.querySelector('body');
 const inputThemeSwitch = document.querySelector('#theme-switch-toggle');
 
-console.dir(inputThemeSwitch);
 inputThemeSwitch.addEventListener('change', changeTheme);
 
 
