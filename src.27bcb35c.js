@@ -1,7 +1,7 @@
 parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcelRequire,u="function"==typeof require&&require;function f(t,n){if(!r[t]){if(!e[t]){var i="function"==typeof parcelRequire&&parcelRequire;if(!n&&i)return i(t,!0);if(o)return o(t,!0);if(u&&"string"==typeof t)return u(t);var c=new Error("Cannot find module '"+t+"'");throw c.code="MODULE_NOT_FOUND",c}p.resolve=function(r){return e[t][1][r]||r},p.cache={};var l=r[t]=new f.Module(t);e[t][0].call(l.exports,p,l,l.exports,this)}return r[t].exports;function p(e){return f(p.resolve(e))}}f.isParcelRequire=!0,f.Module=function(e){this.id=e,this.bundle=f,this.exports={}},f.modules=e,f.cache=r,f.parent=o,f.register=function(r,t){e[r]=[function(e,r){r.exports=t},{}]};for(var c=0;c<t.length;c++)try{f(t[c])}catch(e){i||(i=e)}if(t.length){var l=f(t[t.length-1]);"object"==typeof exports&&"undefined"!=typeof module?module.exports=l:"function"==typeof define&&define.amd?define(function(){return l}):n&&(this[n]=l)}if(parcelRequire=f,i)throw i;return f}({"clu1":[function(require,module,exports) {
 
 },{"./../images/demo.jpg":[["demo.090c7c6d.jpg","nKR3"],"nKR3"]}],"qwQt":[function(require,module,exports) {
-const e={LIGHT:"light-theme",DARK:"dark-theme"},t=e.LIGHT,c=e.DARK,o="check",a=document.querySelector("body"),s=document.querySelector("#theme-switch-toggle");function l(e){const s=e.target.checked;!0===s&&(a.classList.add(c),a.classList.remove(t),localStorage.setItem(o,s)),!1===s&&(a.classList.replace(c,t),localStorage.setItem(o,s))}function r(){"true"===localStorage.getItem(o)&&(s.checked=!0,a.classList.add(c)),localStorage.removeItem(o)}console.dir(s),s.addEventListener("change",l),r();
+const e={LIGHT:"light-theme",DARK:"dark-theme"},t=e.LIGHT,c=e.DARK,o="check",a=document.querySelector("body"),s=document.querySelector("#theme-switch-toggle");function l(e){const s=e.target.checked;!0===s&&(a.classList.add(c),a.classList.remove(t),localStorage.setItem(o,s)),!1===s&&(a.classList.replace(c,t),localStorage.setItem(o,s))}function r(){"true"===localStorage.getItem(o)&&(s.checked=!0,a.classList.add(c)),localStorage.removeItem(o)}s.addEventListener("change",l),r();
 },{}],"pAws":[function(require,module,exports) {
 var define;
 var global = arguments[3];
@@ -15,4 +15,4 @@ module.exports=[{id:"XWaQXcbk0",name:"Картофель, запеченный �
 },{"../templates/menu-template.hbs":"ad5R","../menu.json":"mA8c"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/theme.js"),require("./js/js-menu.js");
 },{"./sass/main.scss":"clu1","./js/theme.js":"qwQt","./js/js-menu.js":"CcBi"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-10-food-service/src.02f567bd.js.map
+//# sourceMappingURL=/goit-js-hw-10-food-service/src.27bcb35c.js.map
