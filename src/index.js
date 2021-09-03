@@ -1,2 +1,3 @@
 import './sass/main.scss';
-import './js/localstorage.js';
+import './js/theme.js'
+import './js/js-menu.js';
